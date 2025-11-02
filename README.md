@@ -7,6 +7,18 @@ L’objectif est de réduire la taille des données transmises tout en permettan
 
 ---
 
+## Organisation du projet
+
+- **src/** : Code source des classes de compression.  
+- **scripts/** : Scripts d’usage (démonstration, visualisation).  
+- **benchmarks/** : Mesures de performance et outils associés.  
+- **tests/** : Tests unitaires.  
+- **docs/** : Documentation et rapport PDF final.  
+- **Makefile** : Automatisation des tâches (ex. `make run_demo`, `make run_gui` , `make test`).  
+- **requirements.txt** : Dépendances Python.  
+
+---
+
 ## Fonctionnalités principales
 
 - Compression bit packing classique (split bits sur deux entiers de sortie).  
@@ -45,10 +57,10 @@ Outils de développement : éditeur de code (VS Code) et terminal avec Makefile
 ## Installation
 
 Cloner le dépôt, puis installer les dépendances :
-git clone 'https://github.com/kadridiaa/compression-et-d-compression-des-tableaux-d-entiers-par-Bit-Packing.git'
-cd compression-et-d-compression-des-tableaux-d-entiers-par-Bit-Packing
+git clone 'https://github.com/kadridiaa/Software-engineer-project-2026---KADRI-Dia-eddine.git'
+cd .\Software-engineer-project-2026---KADRI-Dia-eddine\
 
-pip install -r requirements.txt
+pip install -r requirements.txt (meme si il y a pas il marche)
 
 ---
 
@@ -72,21 +84,11 @@ Montre un exemple de compression/décompression avec mesures de temps :
 
 Pour vérifier que toutes les fonctionnalités fonctionnent :
 -python -m unittest discover tests
+ ou
 -make test
 
 ---
 
-## Organisation du projet
-
-- **src/** : Code source des classes de compression.  
-- **scripts/** : Scripts d’usage (démonstration, visualisation).  
-- **benchmarks/** : Mesures de performance et outils associés.  
-- **tests/** : Tests unitaires.  
-- **docs/** : Documentation et rapport PDF final.  
-- **Makefile** : Automatisation des tâches (ex. `make run_demo`, `make test`).  
-- **requirements.txt** : Dépendances Python.  
-
----
 
 ## Rapport final
 
