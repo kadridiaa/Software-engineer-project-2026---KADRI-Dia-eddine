@@ -1,5 +1,8 @@
 # Projet Software Engineering - Compression et décompression par Bit Packing
 
+Etudiant : KADRI Dia-eddine
+Prof : Jean-charles REGIN
+
 ## Description
 
 Ce projet implémente différentes méthodes de compression de tableaux d’entiers basées sur la technique du bit packing.  
